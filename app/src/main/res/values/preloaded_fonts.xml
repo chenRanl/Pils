@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/andika</item>
+        <item>@font/atma_medium</item>
+        <item>@font/cabin</item>
+        <item>@font/chelsea_market</item>
+        <item>@font/coming_soon</item>
+        <item>@font/pacifico</item>
+        <item>@font/wellfleet</item>
+        <item>@font/zeyada</item>
+    </array>
+</resources>
