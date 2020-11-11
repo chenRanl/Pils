@@ -1,4 +1,0 @@
-# Pils
-mediapipe
-
-openpose
