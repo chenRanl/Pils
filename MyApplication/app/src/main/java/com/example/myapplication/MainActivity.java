@@ -16,13 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        signUp = (TextView) findViewById(R.id.SignUp);
-        signUp.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openActivity2();
-            }
-        });
+
 
         Login = (TextView) findViewById(R.id.Login);
         Login.setOnClickListener(new View.OnClickListener() {
@@ -33,10 +27,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    public void openActivity2(){
-        Intent intent = new Intent(this, MainActivity3.class);
-        startActivity(intent);
-    }
+
 
     public void openActivity3(){
         Intent intent = new Intent(this, MainActivity3.class);
