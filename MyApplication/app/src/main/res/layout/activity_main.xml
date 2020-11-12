@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/backg"
+    android:background="@color/cardview_dark_background"
     android:fadingEdge="horizontal"
     android:fadingEdgeLength="10dp"
     tools:context=".MainActivity">
@@ -12,35 +12,38 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="120dp"
-        android:background="#3a4369"
+        android:background="#a29af9"
         android:fadingEdge="horizontal"
         android:fadingEdgeLength="20dp"
         android:orientation="vertical">
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="300dp"
-            android:layout_height="50dp"
+            android:layout_width="350dp"
+            android:layout_height="55dp"
             android:layout_centerHorizontal="true"
-            android:fontFamily="@font/coming_soon"
-            android:text="Welcome Back!"
+            android:fontFamily="@font/rosario"
+            android:text="MyHomeCoach"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="@color/white"
-            android:textSize="36sp"
-            android:translationX="55dp"
+            android:textSize="50sp"
+            android:translationX="50dp"
             android:translationY="40dp" />
 
     </LinearLayout>
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="150dp"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:adjustViewBounds="true"
         android:cropToPadding="true"
-        android:translationY="170dp"
-        app:srcCompat="@drawable/logo"
+        android:fadeScrollbars="true"
+        android:fadingEdge="horizontal|vertical"
+        android:fadingEdgeLength="50dp"
+        android:translationY="130dp"
+        app:srcCompat="@drawable/logo3"
         tools:visibility="visible" />
 
     <EditText
@@ -53,8 +56,8 @@
         android:ems="10"
         android:hint="Username"
         android:inputType="textPersonName"
-        android:textColor="#FFC107"
-        android:textColorHint="#f68679"
+        android:textColor="@color/amarillo"
+        android:textColorHint="@color/amarillo"
         android:textSize="16dp"
         android:translationY="350dp" />
 
@@ -69,7 +72,7 @@
         android:hint="Password"
         android:inputType="textPassword"
         android:textColor="#FF5722"
-        android:textColorHint="#f68679"
+        android:textColorHint="@color/amarillo"
         android:textSize="16dp"
         android:translationY="400dp" />
 
@@ -106,6 +109,7 @@
             android:background="#ecd089">
 
             <TextView
+                android:id="@+id/Login"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
@@ -126,6 +130,6 @@
         android:textColorHighlight="@color/white"
         android:translationY="650dp" />
 
-        />
+    />
 
 </RelativeLayout>
